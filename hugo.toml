@@ -1,0 +1,25 @@
+baseURL = "https://rrivera1849.github.io/"
+languageCode = "en-us"
+title = "Rafael A. Rivera Soto"
+
+[params]
+  name = "Rafael A. Rivera Soto"
+  description = "Researcher at LLNL | PhD Candidate at JHU"
+  profileImage = "/images/profile.jpg"
+  email = "rafaelriverasoto@jhu.edu"
+  googleScholar = "https://scholar.google.com/citations?user=4rCvH-UAAAAJ"
+  github = "https://github.com/rrivera1849"
+  # linkedin = "https://linkedin.com/in/your-profile"
+  # twitter = "https://twitter.com/your-handle"
+  cvFile = "/files/cv.pdf"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML"]
+
+[pagination]
+  pagerSize = 20

@@ -1,0 +1,24 @@
+{{ define "main" }}
+<section class="publications-section">
+  <h1>Publications</h1>
+  {{ $pubs := hugo.Data.publications }}
+  <ol class="publication-list" reversed>
+    {{ range $pubs }}
+    <li class="publication-item">
+      <div class="pub-content">
+        <p class="pub-title">{{ .title }}</p>
+        <p class="pub-authors">{{ .authors | markdownify }}</p>
+        <p class="pub-venue">{{ .venue }}</p>
+        {{ if .links }}
+        <div class="pub-links">
+          {{ range .links }}
+          <a href="{{ .url }}" class="pub-link" target="_blank">{{ .label }}</a>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </li>
+    {{ end }}
+  </ol>
+</section>
+{{ end }}

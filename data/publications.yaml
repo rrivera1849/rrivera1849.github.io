@@ -1,0 +1,92 @@
+# ──────────────────────────────────────────────────────────────
+# Publications — edit this file to add, remove, or reorder papers.
+#
+# Fields:
+#   title:    Paper title
+#   authors:  Author list (use **Name** for bold, typically your own name)
+#   venue:    Venue and year (e.g., "ICLR 2024")
+#   year:     Publication year (used for sorting)
+#   selected: true/false — if true, shown on the home page
+#   links:    List of {label, url} pairs — fully customizable
+#             Common labels: arXiv, Code, Blog, Demo, Slides, Video, PDF
+# ──────────────────────────────────────────────────────────────
+#
+- title: "A Survey on Representing Linguistic Style: Challenges and Opportunities"
+  authors: "Anna Wegmann, Cristina Aggazzotti, **Rafael Rivera Soto**, Dong Nguyen"
+  venue: "preprint, 2026"
+  year: 2026
+  selected: true
+  links:
+    - label: "PDF"
+      url: "https://research-portal.uu.nl/ws/portalfiles/portal/283237903/Style_Survey.pdf"
+
+- title: "Mitigating Paraphrase Attacks on Machine-Text Detection via Paraphrase Inversion"
+  authors: "**Rafael A. Rivera Soto**, Barry Y. Chen, Nicholas Andrews"
+  venue: "ACL Findings, 2025"
+  year: 2025
+  selected: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2410.21637"
+
+- title: "Language Models Optimized to Fool Detectors Still Have a Distinct Style (And How to Change It)"
+  authors: "**Rafael A. Rivera Soto**, Barry Y. Chen, Nicholas Andrews"
+  venue: "arXiv preprint, 2025"
+  year: 2025
+  selected: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2505.14608"
+
+- title: "Few-Shot Detection of Machine-Generated Text using Style Representations"
+  authors: "**Rafael A. Rivera Soto**, Kailin Koch, Aleem Khan, Barry Y. Chen, Marcus Bishop, Nicholas Andrews"
+  venue: "ICLR, 2024"
+  year: 2024
+  selected: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2401.06712"
+    - label: "Code"
+      url: "https://github.com/llnl/LUAR/tree/main/fewshot_iclr2024"
+    - label: "Demo"
+      url: "https://colab.research.google.com/drive/1-Vv2wkSwbxXhQIgQ6tURNzfYbqc3AuBW"
+
+- title: "Can Authorship Representation Learning Capture Stylistic Features?"
+  authors: "Andrew Wang, Cristina Aggazzotti, Rebecca Kotula, **Rafael A. Rivera Soto**, Marcus Bishop, Nicholas Andrews"
+  venue: "TACL, 2023"
+  year: 2023
+  selected: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2308.11490"
+
+- title: "Learning Universal Authorship Representations"
+  authors: "**Rafael A. Rivera Soto**, Olivia Elizabeth Miano, Juanita Ordonez, Barry Y. Chen, Aleem Khan, Marcus Bishop, Nicholas Andrews"
+  venue: "EMNLP, 2021"
+  year: 2021
+  selected: true
+  links:
+    - label: "PDF"
+      url: "https://aclanthology.org/2021.emnlp-main.70/"
+    - label: "Code"
+      url: "https://github.com/LLNL/LUAR"
+
+- title: "YolactEdge: Real-time Instance Segmentation on the Edge"
+  authors: "Haotian Liu, **Rafael A. Rivera Soto**, Fanyi Xiao, Yong Jae Lee"
+  venue: "ICRA, 2021"
+  year: 2021
+  selected: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2012.12259"
+    - label: "Code"
+      url: "https://github.com/WisconsinAIVision/yolact_edge"
+
+- title: "Will Longformers PAN Out for Authorship Verification?"
+  authors: "Juanita Ordonez, **Rafael A. Rivera Soto**, Barry Y. Chen"
+  venue: "CLEF, 2020"
+  year: 2020
+  selected: false
+  links:
+    - label: "PDF"
+      url: "https://ceur-ws.org/Vol-2696/paper_220.pdf"

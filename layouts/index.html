@@ -1,0 +1,60 @@
+{{ define "main" }}
+<div class="profile-section">
+  <div class="profile-header">
+    <div class="profile-photo">
+      <img src="{{ .Site.Params.profileImage }}" alt="{{ .Site.Params.name }}">
+    </div>
+    <div class="profile-info">
+      <h1>{{ .Site.Params.name }}</h1>
+      <p class="profile-tagline">{{ .Site.Params.description }}</p>
+    </div>
+  </div>
+  <div class="profile-bio">
+    {{ .Content }}
+  </div>
+  <div class="profile-links">
+    {{ with .Site.Params.googleScholar }}<a href="{{ . }}" target="_blank" class="profile-link">Google Scholar</a>{{ end }}
+    {{ with .Site.Params.github }}<a href="{{ . }}" target="_blank" class="profile-link">GitHub</a>{{ end }}
+  </div>
+</div>
+
+{{ with .Params.gallery }}
+<section class="gallery-section">
+  <h2>{{ .title | default "Gallery" }}</h2>
+  <div class="gallery-grid">
+    {{ range .images }}
+    <figure class="gallery-item">
+      <img src="{{ .src }}" alt="{{ .alt }}">
+      {{ with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+    </figure>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ $pubs := hugo.Data.publications }}
+{{ $selected := where $pubs "selected" true }}
+{{ if $selected }}
+<section class="publications-section">
+  <h2>Selected Publications</h2>
+  <ol class="publication-list" reversed>
+    {{ range $selected }}
+    <li class="publication-item">
+      <div class="pub-content">
+        <p class="pub-title">{{ .title }}</p>
+        <p class="pub-authors">{{ .authors | markdownify }}</p>
+        <p class="pub-venue">{{ .venue }}</p>
+        {{ if .links }}
+        <div class="pub-links">
+          {{ range .links }}
+          <a href="{{ .url }}" class="pub-link" target="_blank">{{ .label }}</a>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </li>
+    {{ end }}
+  </ol>
+</section>
+{{ end }}
+{{ end }}

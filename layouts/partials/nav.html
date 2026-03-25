@@ -1,0 +1,10 @@
+<nav class="navbar">
+  <div class="container nav-container">
+    <a href="/" class="nav-brand">{{ .Site.Params.name }}</a>
+    <ul class="nav-links">
+      <li><a href="/" class="{{ if .IsHome }}active{{ end }}">about</a></li>
+      <li><a href="/publications/" class="{{ if eq .Section "publications" }}active{{ end }}">publications</a></li>
+      <li><a href="/blog/" class="{{ if eq .Section "blog" }}active{{ end }}">blog</a></li>
+    </ul>
+  </div>
+</nav>
