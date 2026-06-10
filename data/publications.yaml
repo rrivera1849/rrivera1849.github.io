@@ -11,6 +11,24 @@
 #             Common labels: arXiv, Code, Blog, Demo, Slides, Video, PDF
 # ──────────────────────────────────────────────────────────────
 #
+- title: "Unsupervised Style Representation Learning for AI-Text Detection via Paraphrase Inversion"
+  authors: "**Rafael A. Rivera Soto**, Barry Y. Chen, Nicholas Andrews"
+  venue: "preprint, 2026"
+  year: 2026
+  selected: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2606.10099"
+
+- title: "Attacks on Machine-Text Detectors Retain Stylistic Fingerprints"
+  authors: "**Rafael A. Rivera Soto**, Barry Y. Chen, Nicholas Andrews"
+  venue: "ICML 2026"
+  year: 2026
+  selected: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2505.14608"
+#
 - title: "A Survey on Representing Linguistic Style: Challenges and Opportunities"
   authors: "Anna Wegmann, Cristina Aggazzotti, **Rafael Rivera Soto**, Dong Nguyen"
   venue: "preprint, 2026"
@@ -28,15 +46,6 @@
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2410.21637"
-
-- title: "Language Models Optimized to Fool Detectors Still Have a Distinct Style (And How to Change It)"
-  authors: "**Rafael A. Rivera Soto**, Barry Y. Chen, Nicholas Andrews"
-  venue: "arXiv preprint, 2025"
-  year: 2025
-  selected: true
-  links:
-    - label: "arXiv"
-      url: "https://arxiv.org/abs/2505.14608"
 
 - title: "Few-Shot Detection of Machine-Generated Text using Style Representations"
   authors: "**Rafael A. Rivera Soto**, Kailin Koch, Aleem Khan, Barry Y. Chen, Marcus Bishop, Nicholas Andrews"
