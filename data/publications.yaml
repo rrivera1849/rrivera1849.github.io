@@ -40,7 +40,7 @@
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2505.14608"
-  - label: "Code"
+    - label: "Code"
       url: "https://github.com/rrivera1849/style-aware-paraphrasing"
 
 - title: "A Survey on Representing Linguistic Style: Challenges and Opportunities"
