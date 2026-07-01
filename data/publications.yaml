@@ -11,6 +11,18 @@
 #             Common labels: arXiv, Code, Blog, Demo, Slides, Video, PDF
 # ──────────────────────────────────────────────────────────────
 #
+- title: "STEB: Style Text Embedding Benchmark"
+  authors: "**Rafael A. Rivera Soto**, Anna Wegmann, Cristina Aggazzotti"
+  venue: "preprint, 2026"
+  year: 2026
+  selected: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2606.31741"
+    - label: "Code"
+      url: "https://github.com/rrivera1849/STEB"
+
+
 - title: "Unsupervised Style Representation Learning for AI-Text Detection via Paraphrase Inversion"
   authors: "**Rafael A. Rivera Soto**, Barry Y. Chen, Nicholas Andrews"
   venue: "preprint, 2026"
@@ -28,7 +40,9 @@
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2505.14608"
-#
+  - label: "Code"
+      url: "https://github.com/rrivera1849/style-aware-paraphrasing"
+
 - title: "A Survey on Representing Linguistic Style: Challenges and Opportunities"
   authors: "Anna Wegmann, Cristina Aggazzotti, **Rafael Rivera Soto**, Dong Nguyen"
   venue: "preprint, 2026"
